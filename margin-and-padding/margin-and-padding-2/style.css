@@ -1,6 +1,7 @@
 body {
   background: #eee;
   font-family: sans-serif;
+
 }
 
 .card {
@@ -19,9 +20,14 @@ body {
 
 .button-container {
   background: #e3f4ff;
-}
+  text-align: center;
+  padding: 8px;
 
+}
 button {
+  display: block;
   background: white;
-  border: 1px solid #eee;
+  border: 3px solid #eee;
+  padding: 8px 24px;
+  margin: 0 auto;
 }
